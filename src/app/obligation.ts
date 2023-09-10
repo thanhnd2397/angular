@@ -1,0 +1,32 @@
+export interface Obligation {
+  id?: number;
+  code?: string;
+  docCode?: string;
+  docInternalId?: number;
+  addendum?: string;
+  indexCode?: string;
+  action1?: number;
+  action2?: number;
+  action3?: number;
+  descriptionAct?: string;
+  descriptionCtrl?: string;
+  levelAct?: string;
+  levelCtrl?: string;
+  topic?: number;
+  effectiveStatus?: number;
+  effectiveEndDate?: string;
+  isDelete?: number;
+  defineRule?: number;
+  preventive1?: string;
+  preventive2?: string;
+  preventive3?: string;
+  stepLevel1?: string;
+  stepLevel2?: string;
+  statusMapping?: number;
+  statusApproval?: number;
+  createdDate?: string;
+  createdBy?: string;
+  modifiedDate?: string;
+  modifiedBy?: number;
+  selected?: boolean
+}
